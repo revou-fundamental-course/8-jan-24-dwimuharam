@@ -1,1 +1,102 @@
 /* Style */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+header h1 {
+  background-color: #3a4d39;
+  font-weight: 100;
+  padding: 15px;
+  color: #fff;
+}
+
+header h1 i {
+  font-size: 26px;
+}
+
+header h4 {
+  margin-top: 32px;
+  font-size: 23px;
+}
+
+header p {
+  margin-top: -15px;
+  line-height: 27px;
+}
+
+.inputSection {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  margin-top: 20px;
+}
+
+#squareSide {
+  margin-top: 10px;
+  outline: none;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+#squareSide:focus {
+  border: solid #3a4d39;
+}
+
+.button {
+  margin-top: 15px;
+}
+
+.btn-hitung {
+  background-color: blue;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  border-style: none;
+  cursor: pointer;
+}
+
+.btn-reset {
+  background-color: gold;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  border-style: none;
+  cursor: pointer;
+}
+
+.btn-hitung:hover {
+  background-color: #3a4d39;
+}
+
+.btn-hitung:active {
+  background-color: red;
+  transform: translateY(2px);
+}
+
+.btn-reset:hover {
+  background-color: #3a4d39;
+}
+
+.btn-reset:active {
+  background-color: red;
+  transform: translateY(2px);
+}
+
+#Luas p {
+  text-align: start;
+  line-height: 25px;
+}
+
+#Luas h3 {
+  background-color: #3a4d39;
+  padding: 15px;
+  color: #fff;
+}
+
+#card {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 6px #77777736, 0 2px 6px #77777736;
+}
