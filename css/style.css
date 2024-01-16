@@ -6,7 +6,7 @@ body {
 }
 
 header h1 {
-  background-color: #3a4d39;
+  background-color: #ff6c22;
   font-weight: 100;
   padding: 15px;
   color: #fff;
@@ -33,23 +33,38 @@ header p {
   margin-top: 20px;
 }
 
-#squareSide {
+#luasSquareSide {
   margin-top: 10px;
   outline: none;
   border-radius: 8px;
   padding: 8px;
 }
 
-#squareSide:focus {
+#kelilingSquareSide {
+  margin-top: 10px;
+  outline: none;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+#luasSquareSide:focus {
   border: solid #3a4d39;
 }
 
-.button {
+#kelilingSquareSide:focus {
+  border: solid #3a4d39;
+}
+
+.buttonLuas {
+  margin-top: 15px;
+}
+
+.buttonKeliling {
   margin-top: 15px;
 }
 
 .btn-hitung {
-  background-color: blue;
+  background-color: #2b3499;
   color: #fff;
   padding: 10px;
   border-radius: 10px;
@@ -58,7 +73,7 @@ header p {
 }
 
 .btn-reset {
-  background-color: gold;
+  background-color: #ff6c22;
   color: #fff;
   padding: 10px;
   border-radius: 10px;
@@ -67,30 +82,37 @@ header p {
 }
 
 .btn-hitung:hover {
-  background-color: #3a4d39;
+  background-color: #6771e6;
 }
 
 .btn-hitung:active {
-  background-color: red;
   transform: translateY(2px);
 }
 
 .btn-reset:hover {
-  background-color: #3a4d39;
+  background-color: #ff935e;
 }
 
 .btn-reset:active {
-  background-color: red;
   transform: translateY(2px);
 }
 
-#Luas p {
-  text-align: start;
+#luas-card p {
   line-height: 25px;
 }
 
-#Luas h3 {
-  background-color: #3a4d39;
+#keliling-card p {
+  line-height: 25px;
+}
+
+#luas-card h3 {
+  background-color: #ff6c22;
+  padding: 15px;
+  color: #fff;
+}
+
+#keliling-card h3 {
+  background-color: #ff6c22;
   padding: 15px;
   color: #fff;
 }
@@ -99,4 +121,5 @@ header p {
   background-color: #fff;
   padding: 20px;
   box-shadow: 0 2px 6px #77777736, 0 2px 6px #77777736;
+  border-radius: 10px;
 }

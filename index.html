@@ -17,29 +17,65 @@
       <p><i>By Afrizal Dwi Muharam</i></p>
     </header>
 
-    <section id="card">
-      <section id="Luas">
-        <h3>Luas Persegi</h3>
-        <img src="img/Persegi.png" alt="Gambar Persegi" />
-        <h5>Rumus Luas Persegi Yaitu:</h5>
-        <h6>L = S X S</h6>
-        <p>
-          Keterangan: <br />
-          L = Luas <br />
-          S = Sisi
-        </p>
-        <hr />
+    <section id="luas-card">
+      <section id="card">
+        <section id="luas">
+          <h3>Luas Persegi</h3>
+          <img src="img/Persegi.png" alt="Gambar Persegi" />
+          <h5>Rumus Luas Persegi Yaitu:</h5>
+          <h6>L (Luas )= S (Sisi) X S (Sisi)</h6>
+          <hr />
+        </section>
+
+        <div class="inputSection">
+          <label for="luasSquareSide" id="lblLuasSquareSide"
+            >Hitung Luas Persegi</label
+          >
+          <input type="number" id="luasSquareSide" placeholder="Nilai Sisi" />
+        </div>
+
+        <div class="buttonLuas">
+          <button class="btn-hitung" onclick="calculateLuas()">Hitung</button>
+          <button class="btn-reset" onclick="resetLuasCalculator()">
+            Reset
+          </button>
+          <p id="luasResult">Luas Persegi:</p>
+        </div>
       </section>
-
-      <div class="inputSection">
-        <label for="squareSide" id="lblSquareSide">Hitung Luas Persegi</label>
-        <input type="number" id="squareSide" placeholder="Nilai Sisi" />
-      </div>
-
-      <div class="button">
-        <button class="btn-hitung">Hitung</button>
-        <button class="btn-reset">Reset</button>
-      </div>
     </section>
+    <br />
+    <section id="keliling-card">
+      <section id="card">
+        <section id="keliling">
+          <h3>Keliling Persegi</h3>
+          <img src="img/Persegi.png" alt="Gambar Persegi" />
+          <h5>Rumus Keliling Persegi Yaitu:</h5>
+          <h6>K (Keliling) = 4 X S (Sisi)</h6>
+          <hr />
+        </section>
+
+        <div class="inputSection">
+          <label for="kelilingSquareSide" id="lblKelilingSquareSide"
+            >Hitung Keliling Persegi</label
+          >
+          <input
+            type="number"
+            id="kelilingSquareSide"
+            placeholder="Nilai Sisi"
+          />
+        </div>
+
+        <div class="buttonKeliling">
+          <button class="btn-hitung" onclick="calculateKeliling()">
+            Hitung
+          </button>
+          <button class="btn-reset" onclick="resetKelilingCalculator()">
+            Reset
+          </button>
+          <p id="kelilingResult">Keliling Persegi:</p>
+        </div>
+      </section>
+    </section>
+    <script src="js/script.js"></script>
   </body>
 </html>
